@@ -7,7 +7,7 @@ body {
   font-family: Helvetica;
   margin: 0;
   padding: 0;
-  background: rgb(9, 35, 175);
+  /*background: rgb(9, 35, 175);*/
   background: linear-gradient(
     180deg,
     rgba(9, 35, 175, 1) 0%,
@@ -34,8 +34,3 @@ button:hover {
   background: #0923af;
 }
 
-@media screen and (max-width: 600px) and (min-width: 400px) {
-  .app {
-    flex-direction: column;
-  }
-}
