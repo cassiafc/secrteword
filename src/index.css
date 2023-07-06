@@ -33,3 +33,9 @@ button {
 button:hover {
   background: #0923af;
 }
+
+@media screen and (max-width: 600px) and (min-width: 400px) {
+  .app {
+    flex-direction: column;
+  }
+}
